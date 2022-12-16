@@ -14,6 +14,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.example.myapplication.adapter.BannerMoviesPagerAdapter;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
     RecyclerView MoviesRV;
     BottomNavigationView bottomNavigationView;
     ArrayList<Movie> movies;
+    ImageButton button;
     Movie filmPos;
 
     @Override
@@ -49,6 +51,11 @@ public class MainActivity extends AppCompatActivity implements MovieItemClickLis
         MoviesRV = findViewById(R.id.Rv_movies);
         firstTab = findViewById(R.id.indicator);
         secondTab = findViewById(R.id.tabLayout);
+        button = findViewById(R.id.imageButton2);
+        button.setOnClickListener(v -> {
+            Intent in = new Intent(MainActivity.this, MapsFragment.class);
+            startActivity(in);
+                });
         createNotificationChannel();
 
         bannerMoviesList = new ArrayList<>();
