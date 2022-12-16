@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">All Star Cinema</string>
+    <string name="textview">TextView</string>
+    <string name="simpletext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor tincidunt iaculis. Fusce non placerat tortor, ac tincidunt risus. Aenean rhoncus eget sapien vel sagittis. Curabitur orci augue, sodales quis tortor sit amet, mattis mollis ipsum. Nulla ac magna id enim dictum dapibus et quis purus. Donec tincidunt sit amet lacus non pulvinar. Sed nulla ligula, tristique vitae lorem et, malesuada consequat arcu. Nam rhoncus dictum quam, at vulputate dui finibus id.</string>
+</resources>
